@@ -1,0 +1,26 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header{
+  justify-content: space-around;
+  background: grey;
+  color: white;
+  font-size: 1.2rem;
+  padding: 0.5em
+}
+
+header ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+header ul li{
+  list-style-type: none;
+}
+header ul li a{
+  text-decoration: none;
+}
